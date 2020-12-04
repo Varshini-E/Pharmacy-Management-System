@@ -1,0 +1,78 @@
+body{
+	font-family:Arial;
+	background-image:url("pharm1.png");
+	background-size:cover;
+	overflow:hidden;
+}
+
+.header {
+  padding: 10px;
+  margin:-10px;
+  text-align: center;
+  background: #003366;
+  color: white;
+  font-size: 30px;
+  overflow:hidden;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   right:0;
+   background-color: #003366;
+   color: white;
+   text-align: center;
+   overflow:hidden;
+}
+
+.container{
+    width:30%;
+	margin:auto;
+	background-color:white;
+	
+}
+
+
+#div_login{
+    border:1px solid gray;
+    border-radius: 3px;
+    width: 30%px;
+    height: 280px;
+    box-shadow: 0px 2px 2px 0px  gray;
+    margin: 0 auto;
+}
+
+#div_login h1{
+    margin-top: 0px;
+    font-weight: normal;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-family: sans-serif;
+}
+
+#div_login div{
+    clear: both;
+    margin-top: 10px;
+    padding: 5px;
+	padding-right: 15px;
+}
+
+#div_login .textbox{
+    width: 90%;
+    padding: 7px;
+	 
+}
+
+input[type=submit]{
+  background-color: #0077b3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display:inline-block;
+  margin-top:5px;
+}
