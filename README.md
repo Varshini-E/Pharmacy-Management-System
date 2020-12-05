@@ -64,12 +64,34 @@ The system is developed for use by either the **Admin** or **Pharmacists**.
 - Keep track of all sale transactions
 - Generate and view reports based on the data
 
+### Screenshots
+
+#### Admin Login Page
+
+<img src="https://github.com/Varshini-E/Pharmacy-Management-System/blob/master/Screenshots/admin-login.png">
+
+#### Admin DashBoard
+
+<img src="https://github.com/Varshini-E/Pharmacy-Management-System/blob/master/Screenshots/admin-mainpage.png">
+
 ### Pharmacist Capabilities:
 
 - View the inventory of medicines, their price, quantity and other details – no changes are allowed from a pharmacist point of view
 - View minimal details regarding existing customers
 - Add a new customer to their database
 - Make a new sale and register the sale details onto the database
+
+### Screenshots
+
+#### Pharmacist Login Page
+
+<img src="https://github.com/Varshini-E/Pharmacy-Management-System/blob/master/Screenshots/pharmacist-login.png">
+
+#### Pharmacist DashBoard
+
+<img src="https://github.com/Varshini-E/Pharmacy-Management-System/blob/master/Screenshots/pharmacist-mainpage.png">
+
+***Check out other screenshots showing interface functionality here: [Screenshots](Screenshots)***
 
 ## Database Architecture
 
@@ -99,6 +121,22 @@ The system is developed for use by either the **Admin** or **Pharmacists**.
   
 ***EMPLOGIN***:
 	Contains the employee ID, the employee username and password for all the pharmacists and managers, apart from Admin. Pharmacist capabilities can be implemented by using any of the login details in the table. 
+	
+### ER Diagram
+
+<img src="https://github.com/Varshini-E/Pharmacy-Management-System/blob/master/ER_Diagram.png">
+
+### Relational Database Model
+
+<img src="https://github.com/Varshini-E/Pharmacy-Management-System/blob/master/RelationalModel.png">
+
+## Additional Information
+
+- Check the triggers, procedures and functions for further understanding.
+- If a new employee has been added, login details for a new employee can only be added using the database server.
+- Admin login details can only be changed using the database server.
+
+*Feel free to contact for any further queries*
 
 
 
