@@ -135,8 +135,9 @@ The system is developed for use by either the **Admin** or **Pharmacists**.
 - Check the triggers, procedures and functions for further understanding.
 - If a new employee has been added, login details for a new employee can only be added using the database server.
 - Admin login details can only be changed using the database server.
+- For major changes, please open an *issue* first to discuss what you would like to change.
 
-*Feel free to contact for any further queries*
+*Feel free to contact for any further queries.*
 
 
 
